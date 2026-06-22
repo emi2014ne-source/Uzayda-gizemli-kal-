@@ -1,0 +1,1 @@
+e("Hoş geldin kaptan! Uzayın derinliklerinde bir macera başlıyor.")  secim = st.radio("Ne yapmak istersin?", ["Motorları çalıştır", "Radar taraması yap"])  if secim == "Motorları çalıştır":     st.success("Motorlar çalıştı! Uzay boşluğuna doğru ilerliyoruz...") elif secim == "Radar taraması yap":     st.warning("Radar tarandı... Yakınlarda bilinmeyen bir sinyal tespit edildi!")
